@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@900&display=swap');
+
+body{
+    background-color: orange;
+    overflow: hidden;
+  }
+
+  h1 {
+    color: white;
+    font-family: arial;
+    text-align: center;
+}
+
+#overlay {
+    background-image: url(Bilder/tiger-background.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 550px;
+    height: 752px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#winoverlay {
+  background-image: url(Bilder/tiger-background.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-color: white;
+  width: 550px;
+  height: 752px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none; 
+}
+
+#looseoverlay {
+  background-image: url(Bilder/tiger-background.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-color: white;
+  width: 550px;
+  height: 752px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none; 
+}
+
+#game {
+  text-align: center; 
+}
+
+h2 {
+  color: orange;
+  font-family: arial;
+  text-align: center;
+  font-family: 'Recursive', sans-serif;
+  margin-top: 100px;
+    font-size: 50px;
+}
+
+
+h3 {
+  color: orange;
+  font-family: arial;
+  text-align: center;
+  font-family: 'Recursive', sans-serif;
+    font-size: 25px;
+}
+
+.wrapper{
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrapper2{
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrapper3{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wrapper4{
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wrapper5{
+  position: fixed;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a{
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+}
+
+a span{
+  position: relative;
+  z-index: 2;
+}
+
+a:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: orange;
+  transition: all .35s;
+}
+
+a:hover{
+  color: #fff;
+}
+
+a:hover:after{
+  width: 100%;
+}
+
+#option-overlay{
+  background-image: url(Bilder/tiger-background.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-color: white;
+  width: 550px;
+    height: 752px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none; 
+}
+
+
+#anleitung-overlay{
+  background-image: url(Bilder/anleitung.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-color: white;
+  width: 550px;
+  height: 752px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none; 
+}
+
+.inhalt {
+  text-align: center ; 
+}
